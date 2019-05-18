@@ -41,7 +41,7 @@ class Word
   end
 
   def win?
-    @letters.length == 0 ? true : false
+    @letters.empty? ? true : false
   end
 
   def to_hash
