@@ -43,10 +43,6 @@ class Word
   def win?
     @letters.empty? ? true : false
   end
-
-  def to_hash
-    { word: @word, letters: @letters }
-  end
 end
 
 class Game
